@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background: black;
+    overflow: auto;
+    padding: 10px;
+    height: 40px;
+    border-radius: 5px;
+
+}
+nav ul{
+    margin-left: 50px;
+}
+nav li{
+    float: left;
+    width: 100px;
+    list-style-type: none;
+}
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+nav li a:hover{
+    text-decoration: underline;
+}
